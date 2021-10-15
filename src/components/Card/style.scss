@@ -1,0 +1,82 @@
+:deep(.n-card > .n-card-header) {
+  padding: 27px 40px 10px 40px;
+}
+.n-card {
+  margin-bottom: 1rem;
+}
+.src-info {
+  display: flex;
+  align-items: center;
+  p {
+    margin: 0;
+  }
+}
+.facebook-src-info {
+  margin-right: 5px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 1px solid rgba(100, 99, 99, 0.1);
+}
+.facebook-user-name {
+  color: var(--text-color);
+  font-weight: 600;
+}
+.src-and-article {
+  margin-left: 5px;
+}
+.src-img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+.article-info {
+  color: rgb(133, 128, 128);
+}
+.article {
+  margin-top: 10px;
+}
+.article-img {
+  width: 120px;
+  height: auto;
+  border-radius: 3px;
+}
+.read-more {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  font-size: 14px;
+  float: right;
+  .n-icon {
+    margin-left: 4px;
+  }
+  &:hover {
+    color: var(--primary-color-hover);
+    .n-icon {
+      animation-name: pippo;
+      animation-duration: 0.75s;
+      animation-direction: alternate;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+    }
+  }
+}
+
+@keyframes pippo {
+  0% {
+    margin-right: 4px;
+  }
+  50% {
+    margin-right: 6px;
+  }
+  100% {
+    margin-right: 4px;
+  }
+}
+
+.popular-article {
+  width: 20px;
+  height: auto;
+  margin-right: 5px;
+}

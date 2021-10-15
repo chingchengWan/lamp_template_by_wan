@@ -1,0 +1,145 @@
+.n-card {
+  padding: 0 10px;
+}
+
+.n-switch {
+  position: absolute;
+  right: 0;
+}
+
+:deep(.n-card__content) {
+  padding: 0;
+  padding-top: 0 !important;
+}
+
+.n-icon {
+  font-size: 20px;
+  margin-right: 4px;
+}
+
+:deep(.n-button__content) {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.navigation{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%; 
+  margin: auto 30px;
+}
+
+.left {
+  display: flex;
+}
+.center {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15px;
+}
+.right {
+  display: flex;
+  justify-content:end;
+}
+
+.logo-wrap {
+  display: flex;
+  align-items: center;
+  & > .text {
+    margin-left: 4px;
+    font-size: 24px;
+    font-family: "Gill Sans", sans-serif;
+  }
+  .lamp-logo {
+    width: 30px;
+    height: auto;
+    // transform: rotateY(180deg);
+  }
+}
+
+.app-button {
+  margin-right: 10px;
+}
+
+.search-block {
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+}
+
+.profile-info {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font-weight: 600;
+  text-align: left;
+  .info-block {
+    padding-left: 4px;
+  }
+  p {
+    margin: 0;
+  }
+  .detail-text {
+    margin-top: 4px;
+    color: #65676b;
+    font-size: 14px;
+  }
+}
+
+.avatar {
+  margin-right: 5px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  border: 1px solid rgba(100, 99, 99, 0.1);
+  box-shadow: 2px 2px 2px rgba(100, 99, 99, 0.3);
+}
+
+.login-button {
+  box-shadow: 2px 2px 2px rgba(100, 99, 99, 0.3);
+}
+
+.profile-button {
+  display: block;
+  margin: 15px 0;
+  .n-icon {
+    font-size: 15px;
+  }
+  p {
+    margin: 0;
+    font-size: 15px;
+  }
+}
+
+.divider {
+  height: 0;
+  margin: 10px -24px;
+  overflow: hidden;
+  border-top: 1px solid #e4e4e4;
+}
+
+.dark-mode {
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+  .n-icon {
+    font-size: 15px;
+  }
+  p {
+    margin: 0;
+    font-size: 15px;
+  }
+}
+
+span {
+  color: #36ad6a;
+}
